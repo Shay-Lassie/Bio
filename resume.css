@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background: url('images/DSC.jpg') no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+  }
+  header {
+    line-height: 1.5;
+  }
+  header .main-img{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+  }
+  header .main-img:hover {
+    transform: scale(1.2) rotate(360deg);
+  }
+  header .name {
+    color: aliceblue;
+  }
+  header .resume {
+      color: azure;
+  }
+
